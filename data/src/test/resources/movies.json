@@ -1,0 +1,464 @@
+[
+  {
+    "id": "110de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Iron Man",
+    "description": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fb%2Fgracenote%2Fbbd2ece31e5f0db52db32e73383310dc.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2008,
+    "rating": 7.9,
+    "duration": "126 min",
+    "director": "Jon Favreau",
+    "actors": [
+      "Robert Downey Jr.",
+      "Terrence Howard",
+      "Jeff Bridges"
+    ]
+  },
+  {
+    "id": "210de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "The Incredible Hulk",
+    "description": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into whenever he loses his temper.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F6%2Fgracenote%2F676500837c5aea32151aafdc1082d74d.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2008,
+    "rating": 6.7,
+    "duration": "112 min",
+    "director": "Louis Leterrier",
+    "actors": [
+      "Edward Norton",
+      "Liv Tyler",
+      "Tim Roth"
+    ]
+  },
+  {
+    "id": "310de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Iron Man 2",
+    "description": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fb%2Fgracenote%2Fb6488a037fbcb2bb1133e094a5680b60.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2010,
+    "rating": 7.0,
+    "duration": "124 min",
+    "director": "Jon Favreau",
+    "actors": [
+      "Robert Downey Jr.",
+      "Gwyneth Paltrow",
+      "Don Cheadle"
+    ]
+  },
+  {
+    "id": "410de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Thor",
+    "description": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F7%2Fgracenote%2F7fb0b06109c45b619dfa5d84254d4055.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2011,
+    "rating": 7.0,
+    "duration": "115 min",
+    "director": "Kenneth Branagh",
+    "actors": [
+      "Chris Hemsworth",
+      "Natalie Portman",
+      "Anthony Hopkins"
+    ]
+  },
+  {
+    "id": "510de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Captain America: The First Avenger",
+    "description": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a super soldier serum. But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F1%2Fgracenote%2F1cca9ad26fee17d314305e38ce3410f6.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2011,
+    "rating": 6.9,
+    "duration": "124 min",
+    "director": "Joe Johnston",
+    "actors": [
+      "Chris Evans",
+      "Hayley Atwell",
+      "Sebastian Stan"
+    ]
+  },
+  {
+    "id": "610de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Marvel's The Avengers",
+    "description": "Nick Fury and the international agency S.H.I.E.L.D. bring together a team of super humans to form The Avengers to help save the Earth from Loki and his alien army.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F8%2Fgracenote%2F8da028f7cbbeff603eb2627251ebef12.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2012,
+    "rating": 8.0,
+    "duration": "143 min",
+    "director": "Joss Whedon",
+    "actors": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo"
+    ]
+  },
+  {
+    "id": "710de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Iron Man 3",
+    "description": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fa%2Fgracenote%2Fa96339a3a614d935e7c9eebf0fe5ed9b.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2013,
+    "rating": 7.2,
+    "duration": "130 min",
+    "director": "Shane Black",
+    "actors": [
+      "Robert Downey Jr.",
+      "Gwyneth Paltrow",
+      "Don Cheadle"
+    ]
+  },
+  {
+    "id": "810de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Thor: The Dark World",
+    "description": "When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves. Led by the Malekith, the Dark Elves seek to plunge the universe into darkness and reshape reality.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F0%2Fgracenote%2F06689aeae2ed134c583f553b6b2ddd41.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2013,
+    "rating": 6.9,
+    "duration": "112 min",
+    "director": "Alan Taylor",
+    "actors": [
+      "Chris Hemsworth",
+      "Natalie Portman",
+      "Tom Hiddleston"
+    ]
+  },
+  {
+    "id": "910de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Captain America: The Winter Soldier",
+    "description": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D. agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F3%2Fgracenote%2F399279876d547892cacc16b3285570ea.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2014,
+    "rating": 7.8,
+    "duration": "136 min",
+    "director": "Anthony Russo",
+    "actors": [
+      "Chris Evans",
+      "Scarlett Johansson",
+      "Sebastian Stan"
+    ]
+  },
+  {
+    "id": "1010de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Guardians of the Galaxy",
+    "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fc%2Fgracenote%2Fc767128e3c878e84a50fca1e9e6efe84.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2014,
+    "rating": 8.1,
+    "duration": "121 min",
+    "director": "James Gunn",
+    "actors": [
+      "Chris Pratt",
+      "Zoe Saldana",
+      "Dave Bautista"
+    ]
+  },
+  {
+    "id": "1110de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Avengers: Age of Ultron",
+    "description": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F4%2Fgracenote%2F44d3aff5f82a608a8fefca307be70b96.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2015,
+    "rating": 7.4,
+    "duration": "141 min",
+    "director": "Joss Whedon",
+    "actors": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo"
+    ]
+  },
+  {
+    "id": "1210de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Ant-Man",
+    "description": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F5%2Fgracenote%2F593d5b4351955d6d127b384627599895.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2015,
+    "rating": 7.3,
+    "duration": "117 min",
+    "director": "Peyton Reed",
+    "actors": [
+      "Paul Rudd",
+      "Michael Douglas",
+      "Evangeline Lilly"
+    ]
+  },
+  {
+    "id": "1310de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Captain America: Civil War",
+    "description": "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F1%2Fgracenote%2F12c18c997ed72aec80136b749d9c327f.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2016,
+    "rating": 7.8,
+    "duration": "147 min",
+    "director": "Anthony Russo",
+    "actors": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Scarlett Johansson"
+    ]
+  },
+  {
+    "id": "1510de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Doctor Strange",
+    "description": "When a brilliant but arrogant surgeon gets a new lease on life after a near-fatal car accident, he discovers the hidden world of magic and alternate dimensions.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F0%2Fgracenote%2F0f4d4d8284f2b8d0d08479fdbc07835c.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2016,
+    "rating": 7.5,
+    "duration": "115 min",
+    "director": "Scott Derrickson",
+    "actors": [
+      "Benedict Cumberbatch",
+      "Chiwetel Ejiofor",
+      "Rachel McAdams"
+    ]
+  },
+  {
+    "id": "1610de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Guardians of the Galaxy Vol. 2",
+    "description": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fe%2Fgracenote%2Fe619c69c51902a088d3766da62ab9082.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2017,
+    "rating": 7.7,
+    "duration": "136 min",
+    "director": "James Gunn",
+    "actors": [
+      "Chris Pratt",
+      "Zoe Saldana",
+      "Dave Bautista"
+    ]
+  },
+  {
+    "id": "1710de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Spider-Man: Homecoming",
+    "description": "Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in New York City while fighting crime as his superhero alter ego Spider-Man when a new threat emerges.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F3%2Fgracenote%2F35ea241e931c01e3bf25c7de803a5359.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2017,
+    "rating": 7.5,
+    "duration": "133 min",
+    "director": "Jon Watts",
+    "actors": [
+      "Tom Holland",
+      "Michael Keaton",
+      "Robert Downey Jr."
+    ]
+  },
+  {
+    "id": "1810de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Thor: Ragnarok",
+    "description": "Imprisoned on the other side of the universe, the mighty Thor finds himself in a deadly gladiatorial contest that pits him against the Hulk, his former ally and fellow Avenger.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F3%2Fgracenote%2F3379d8ba00680490afed55f725cf04e1.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2017,
+    "rating": 7.9,
+    "duration": "130 min",
+    "director": "Taika Waititi",
+    "actors": [
+      "Chris Hemsworth",
+      "Tom Hiddleston",
+      "Cate Blanchett"
+    ]
+  },
+  {
+    "id": "1910de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Black Panther",
+    "description": "T'Challa, the King of Wakanda, must defend his nation from being torn apart by enemies from outside and inside the country.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2F6%2Fgracenote%2F657d64e520ed594577de0a4fc6a4a1e4.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2018,
+    "rating": 7.3,
+    "duration": "134 min",
+    "director": "Ryan Coogler",
+    "actors": [
+      "Chadwick Boseman",
+      "Michael B. Jordan",
+      "Lupita Nyong'o"
+    ]
+  },
+  {
+    "id": "2010de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Avengers: Infinity War",
+    "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Ff%2Fgracenote%2Ff96f07ec630498331baea1793794342f.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2018,
+    "rating": 8.5,
+    "duration": "149 min",
+    "director": "Anthony Russo",
+    "actors": [
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Mark Ruffalo"
+    ]
+  },
+  {
+    "id": "2110de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Ant-Man and the Wasp",
+    "description": "As Scott Lang balances being both a superhero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fa%2Fgracenote%2Fa376b5578f1970bc88af148477338dcc.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2018,
+    "rating": 7.1,
+    "duration": "118 min",
+    "director": "Peyton Reed",
+    "actors": [
+      "Paul Rudd",
+      "Evangeline Lilly",
+      "Michael Peña"
+    ]
+  },
+  {
+    "id": "2210de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Captain Marvel",
+    "description": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fc%2Fgracenote%2Fc1b3e31b0fc32591cc3d56034200efed.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2019,
+    "rating": 6.9,
+    "duration": "123 min",
+    "director": "Anna Boden",
+    "actors": [
+      "Brie Larson",
+      "Samuel L. Jackson",
+      "Ben Mendelsohn"
+    ]
+  },
+  {
+    "id": "2310de81c-3b5c-4b4e-9f1a-877b4035c25b",
+    "title": "Avengers: Endgame",
+    "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe.",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "imageUrl": "https://images.plex.tv/photo?size=medium-360&scale=2&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fa%2Fgracenote%2Fa607d7f6f2d86d5b99b57d70e46102c1.jpg",
+    "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "releaseYear": 2019,
+    "rating": 8.4,
+    "duration": "181 min",
+    "director": "Anthony Russo",
+    "actors": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo"
+    ]
+  }
+]
