@@ -1,26 +1,23 @@
 package dev.kevinsalazar.data.repositories
 
-import android.util.Log
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
-import dev.kevinsalazar.domain.entities.TvShow
-import dev.kevinsalazar.domain.entities.TvShowDetails
-import dev.kevinsalazar.data.BuildConfig
 import dev.kevinsalazar.data.mapper.toDomain
 import dev.kevinsalazar.data.networking.MubiApi
 import dev.kevinsalazar.data.networking.model.TvShowMainResponse
 import dev.kevinsalazar.data.paging.TvShowPagingSource
 import dev.kevinsalazar.data.paging.TvShowPagingSource.Companion.ITEMS_PER_PAGE
+import dev.kevinsalazar.domain.entities.TvShow
+import dev.kevinsalazar.domain.entities.TvShowDetails
 import dev.kevinsalazar.domain.errors.DataError
 import dev.kevinsalazar.domain.repositories.TvShowRepository
 import dev.kevinsalazar.domain.values.Result
+import io.ktor.client.plugins.ClientRequestException
 import kotlinx.coroutines.flow.Flow
 import okio.IOException
-import retrofit2.HttpException
-import javax.inject.Inject
 
-class DefaultTvShowRepository @Inject constructor(
+class DefaultTvShowRepository(
     private val mubiApi: MubiApi
 ) : TvShowRepository {
 
@@ -28,8 +25,7 @@ class DefaultTvShowRepository @Inject constructor(
         return handlePagedRequest { page ->
             mubiApi.getTvShows(
                 category = category,
-                page = page,
-                apiKey = BuildConfig.API_KEY
+                page = page
             )
         }
     }
@@ -37,8 +33,7 @@ class DefaultTvShowRepository @Inject constructor(
     override suspend fun getTvShowDetails(id: Int): Result<TvShowDetails, DataError> {
         return handleRequest {
             mubiApi.getTvShowDetail(
-                seriesId = id,
-                apiKey = BuildConfig.API_KEY
+                seriesId = id
             ).toDomain()
         }
     }
@@ -60,10 +55,8 @@ class DefaultTvShowRepository @Inject constructor(
         return try {
             Result.Success(fetcher.invoke())
         } catch (e: IOException) {
-            Log.e(javaClass.name, e.stackTraceToString())
             Result.Error(DataError.Network.NO_INTERNET)
-        } catch (e: HttpException) {
-            Log.e(javaClass.name, e.stackTraceToString())
+        } catch (e: ClientRequestException) {
             Result.Error(DataError.Network.SERVER_ERROR)
         }
     }

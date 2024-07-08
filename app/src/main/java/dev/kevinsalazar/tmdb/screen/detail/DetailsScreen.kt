@@ -43,7 +43,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Velocity
 import androidx.compose.ui.unit.dp
-import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import dev.kevinsalazar.tmdb.screen.detail.model.DetailsModel
 import dev.kevinsalazar.tmdb.ui.components.AnimatableText
@@ -62,11 +61,12 @@ import dev.kevinsalazar.tmdb.utils.LocalNavController
 import dev.kevinsalazar.tmdb.utils.getAsyncImageModel
 import kotlinx.coroutines.cancelChildren
 import kotlinx.coroutines.launch
+import org.koin.androidx.compose.koinViewModel
 
 
 @Composable
 fun DetailScreen(
-    viewModel: DetailsViewModel = hiltViewModel()
+    viewModel: DetailsViewModel = koinViewModel()
 ) {
     val uiState by viewModel.state.collectAsState()
 

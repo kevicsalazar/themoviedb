@@ -2,7 +2,6 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
     alias(libs.plugins.jetbrainsKotlinSerialization)
-    alias(libs.plugins.hilt)
     alias(libs.plugins.ksp)
     alias(libs.plugins.detekt)
 }
@@ -73,22 +72,16 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.material.icons)
     implementation(libs.androidx.compose.constraintlayout)
-    implementation(libs.androidx.media3.exoplayer)
-    implementation(libs.androidx.media3.ui)
+    implementation(libs.bundles.koin.android)
+    implementation(libs.coil.compose)
 
     implementation(libs.paging.compose)
     implementation(libs.paging.runtime)
 
     implementation(libs.coroutines)
 
-    implementation(libs.bundles.coil)
-
     implementation(libs.kotlinx.serialization.core)
     implementation(libs.kotlinx.serialization.json)
-
-    implementation(libs.hilt.android)
-    implementation(libs.hilt.compose)
-    ksp(libs.hilt.compiler)
 
     testImplementation(libs.junit)
     testImplementation(libs.mockk)

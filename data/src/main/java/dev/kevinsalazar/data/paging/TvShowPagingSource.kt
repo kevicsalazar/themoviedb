@@ -5,8 +5,9 @@ import androidx.paging.PagingState
 import dev.kevinsalazar.data.mapper.toDomain
 import dev.kevinsalazar.domain.entities.TvShow
 import dev.kevinsalazar.data.networking.model.TvShowMainResponse
-import okio.IOException
-import retrofit2.HttpException
+import io.ktor.client.plugins.ClientRequestException
+import io.ktor.serialization.JsonConvertException
+import io.ktor.utils.io.errors.IOException
 
 class TvShowPagingSource(
     private val fetcher: suspend (Int) -> TvShowMainResponse
@@ -35,7 +36,9 @@ class TvShowPagingSource(
             )
         } catch (e: IOException) {
             LoadResult.Error(e)
-        } catch (e: HttpException) {
+        } catch (e: ClientRequestException) {
+            LoadResult.Error(e)
+        } catch (e: JsonConvertException) {
             LoadResult.Error(e)
         }
     }

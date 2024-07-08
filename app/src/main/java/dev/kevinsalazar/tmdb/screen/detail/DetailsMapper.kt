@@ -3,9 +3,8 @@ package dev.kevinsalazar.tmdb.screen.detail
 import  dev.kevinsalazar.tmdb.screen.detail.model.DetailsModel
 import dev.kevinsalazar.domain.entities.Season
 import dev.kevinsalazar.domain.entities.TvShowDetails
-import javax.inject.Inject
 
-class DetailsMapper @Inject constructor() {
+class DetailsMapper() {
 
     fun map(details: TvShowDetails): DetailsModel {
 

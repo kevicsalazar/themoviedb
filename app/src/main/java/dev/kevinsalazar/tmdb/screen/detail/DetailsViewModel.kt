@@ -4,7 +4,6 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.navigation.toRoute
-import dagger.hilt.android.lifecycle.HiltViewModel
 import dev.kevinsalazar.domain.usecases.GetTvShowDetailsUseCase
 import dev.kevinsalazar.domain.values.onFailure
 import dev.kevinsalazar.domain.values.onSuccess
@@ -14,10 +13,9 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import javax.inject.Inject
 
-@HiltViewModel
-class DetailsViewModel @Inject constructor(
+
+class DetailsViewModel(
     private val getTvShowDetailsUseCase: GetTvShowDetailsUseCase,
     private val detailsMapper: DetailsMapper,
     private val savedStateHandle: SavedStateHandle

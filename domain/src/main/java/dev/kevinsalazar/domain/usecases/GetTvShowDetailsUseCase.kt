@@ -1,9 +1,8 @@
 package dev.kevinsalazar.domain.usecases
 
 import dev.kevinsalazar.domain.repositories.TvShowRepository
-import javax.inject.Inject
 
-class GetTvShowDetailsUseCase @Inject constructor(
+class GetTvShowDetailsUseCase(
     private val tvShowRepository: TvShowRepository
 ) {
 
