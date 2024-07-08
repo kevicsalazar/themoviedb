@@ -19,5 +19,5 @@ tasks.withType<KotlinCompile>().configureEach {
 
 dependencies {
     implementation(libs.paging.common)
-    implementation(libs.dagger)
+    implementation(libs.koin.core)
 }

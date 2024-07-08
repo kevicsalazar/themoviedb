@@ -10,16 +10,30 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
-import dagger.hilt.android.AndroidEntryPoint
-import dagger.hilt.android.HiltAndroidApp
+import dev.kevinsalazar.data.di.dataModule
+import dev.kevinsalazar.domain.di.domainModule
+import dev.kevinsalazar.tmdb.di.appModule
 import dev.kevinsalazar.tmdb.navigation.MainNavHost
 import dev.kevinsalazar.tmdb.ui.theme.TmdbTheme
 import dev.kevinsalazar.tmdb.utils.NavControllerProvider
+import org.koin.android.ext.koin.androidContext
+import org.koin.core.context.startKoin
 
-@HiltAndroidApp
-class App : Application()
 
-@AndroidEntryPoint
+class App : Application() {
+    override fun onCreate() {
+        super.onCreate()
+        startKoin {
+            androidContext(this@App)
+            modules(
+                appModule,
+                dataModule,
+                domainModule
+            )
+        }
+    }
+}
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

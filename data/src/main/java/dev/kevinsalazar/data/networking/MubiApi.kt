@@ -2,22 +2,32 @@ package dev.kevinsalazar.data.networking
 
 import dev.kevinsalazar.data.networking.model.TvShowDetailsResponse
 import dev.kevinsalazar.data.networking.model.TvShowMainResponse
-import retrofit2.http.GET
-import retrofit2.http.Path
-import retrofit2.http.Query
+import io.ktor.client.HttpClient
+import io.ktor.client.call.body
+import io.ktor.client.request.get
+import io.ktor.client.request.post
+import io.ktor.http.ContentType
+import io.ktor.http.contentType
+import org.koin.core.parameter.parametersOf
 
-interface MubiApi {
+class MubiApi(
+    private val client: HttpClient
+) {
 
-    @GET("tv/{category}")
     suspend fun getTvShows(
-        @Path("category") category: String,
-        @Query("page") page: Int? = null,
-        @Query("api_key") apiKey: String,
-    ): TvShowMainResponse
+        category: String,
+        page: Int? = null
+    ) =
+        client.get("tv/$category") {
+            parametersOf(
+                "page" to page
+            )
+            contentType(ContentType.Application.Json)
+        }.body<TvShowMainResponse>()
 
-    @GET("tv/{series_id}")
     suspend fun getTvShowDetail(
-        @Path("series_id") seriesId: Int,
-        @Query("api_key") apiKey: String,
-    ): TvShowDetailsResponse
+        seriesId: Int,
+    ) = client.get("tv/$seriesId") {
+        contentType(ContentType.Application.Json)
+    }.body<TvShowDetailsResponse>()
 }

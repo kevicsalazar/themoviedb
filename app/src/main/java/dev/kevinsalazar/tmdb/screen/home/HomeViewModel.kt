@@ -5,7 +5,6 @@ import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import androidx.paging.map
-import dagger.hilt.android.lifecycle.HiltViewModel
 import dev.kevinsalazar.domain.usecases.GetPagedTvShowsUseCase
 import dev.kevinsalazar.tmdb.R
 import dev.kevinsalazar.tmdb.navigation.NavigationScreen
@@ -23,10 +22,9 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import javax.inject.Inject
 
-@HiltViewModel
-class HomeViewModel @Inject constructor(
+
+class HomeViewModel(
     private val getTvShowsUseCase: GetPagedTvShowsUseCase,
     private val homeMapper: HomeMapper
 ) : ViewModel(), HomeContract {

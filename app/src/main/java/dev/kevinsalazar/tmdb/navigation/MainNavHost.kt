@@ -2,7 +2,6 @@ package dev.kevinsalazar.tmdb.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import dev.kevinsalazar.tmdb.screen.detail.DetailScreen
