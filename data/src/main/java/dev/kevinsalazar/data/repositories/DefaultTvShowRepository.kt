@@ -55,9 +55,9 @@ class DefaultTvShowRepository(
         return try {
             Result.Success(fetcher.invoke())
         } catch (e: IOException) {
-            Result.Error(DataError.Network.NO_INTERNET)
+            Result.Error(DataError.Network.NO_INTERNET, e.stackTraceToString())
         } catch (e: ClientRequestException) {
-            Result.Error(DataError.Network.SERVER_ERROR)
+            Result.Error(DataError.Network.SERVER_ERROR, e.stackTraceToString())
         }
     }
 }
