@@ -4,7 +4,7 @@ import  dev.kevinsalazar.tmdb.screen.detail.model.DetailsModel
 import dev.kevinsalazar.domain.entities.Season
 import dev.kevinsalazar.domain.entities.TvShowDetails
 
-class DetailsMapper() {
+class DetailsMapper {
 
     fun map(details: TvShowDetails): DetailsModel {
 
