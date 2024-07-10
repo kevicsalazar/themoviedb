@@ -1,7 +1,7 @@
-package dev.kevinsalazar.domain.di
+package domain.di
 
-import dev.kevinsalazar.domain.usecases.GetPagedTvShowsUseCase
-import dev.kevinsalazar.domain.usecases.GetTvShowDetailsUseCase
+import domain.usecases.GetPagedTvShowsUseCase
+import domain.usecases.GetTvShowDetailsUseCase
 import org.koin.core.module.dsl.factoryOf
 import org.koin.dsl.module
 

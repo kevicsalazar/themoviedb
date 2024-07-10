@@ -75,7 +75,7 @@ dependencies {
     implementation(libs.paging.compose)
     implementation(libs.paging.runtime)
 
-    implementation(libs.coroutines)
+    implementation(libs.coroutines.android)
 
     implementation(libs.kotlinx.serialization.core)
     implementation(libs.kotlinx.serialization.json)

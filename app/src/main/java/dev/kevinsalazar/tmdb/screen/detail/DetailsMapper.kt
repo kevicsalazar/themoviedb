@@ -1,8 +1,8 @@
 package dev.kevinsalazar.tmdb.screen.detail
 
 import  dev.kevinsalazar.tmdb.screen.detail.model.DetailsModel
-import dev.kevinsalazar.domain.entities.Season
-import dev.kevinsalazar.domain.entities.TvShowDetails
+import domain.entities.Season
+import domain.entities.TvShowDetails
 
 class DetailsMapper {
 

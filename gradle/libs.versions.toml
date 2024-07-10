@@ -11,7 +11,7 @@ junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 coil = "2.6.0"
 coroutines = "1.8.0"
-navigationCompose = "2.8.0-beta04"
+navigationCompose = "2.8.0-beta05"
 lifecycleRuntimeCompose = "2.8.3"
 compose-paging3 = "3.3.0"
 paging3 = "3.3.0"
@@ -41,7 +41,8 @@ androidx-lifecycle-compose = { module = "androidx.lifecycle:lifecycle-runtime-co
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 
-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 
 paging-compose = { module = "androidx.paging:paging-compose", version.ref = "compose-paging3" }
 paging-runtime = { module = "androidx.paging:paging-runtime", version.ref = "paging3" }

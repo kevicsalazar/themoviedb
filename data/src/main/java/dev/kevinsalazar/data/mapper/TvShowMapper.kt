@@ -2,7 +2,7 @@ package dev.kevinsalazar.data.mapper
 
 import dev.kevinsalazar.data.networking.model.TvShowResponse
 import dev.kevinsalazar.data.utils.constructMediumImageUrl
-import dev.kevinsalazar.domain.entities.TvShow
+import domain.entities.TvShow
 
 
 fun TvShowResponse.toDomain() = TvShow(

@@ -1,4 +1,4 @@
-package dev.kevinsalazar.domain.entities
+package domain.entities
 
 data class Season(
     val name: String? = null,

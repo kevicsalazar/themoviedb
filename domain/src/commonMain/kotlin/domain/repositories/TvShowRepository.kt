@@ -1,10 +1,10 @@
-package dev.kevinsalazar.domain.repositories
+package domain.repositories
 
 import androidx.paging.PagingData
-import dev.kevinsalazar.domain.entities.TvShow
-import dev.kevinsalazar.domain.entities.TvShowDetails
-import dev.kevinsalazar.domain.errors.DataError
-import dev.kevinsalazar.domain.values.Result
+import domain.entities.TvShow
+import domain.entities.TvShowDetails
+import domain.errors.DataError
+import domain.values.Result
 import kotlinx.coroutines.flow.Flow
 
 interface TvShowRepository {
