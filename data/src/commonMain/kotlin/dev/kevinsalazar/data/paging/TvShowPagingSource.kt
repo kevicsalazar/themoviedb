@@ -3,7 +3,7 @@ package dev.kevinsalazar.data.paging
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import dev.kevinsalazar.data.mapper.toDomain
-import domain.entities.TvShow
+import dev.kevinsalazar.domain.entities.TvShow
 import dev.kevinsalazar.data.networking.model.TvShowMainResponse
 import io.ktor.client.plugins.ClientRequestException
 import io.ktor.serialization.JsonConvertException

@@ -1,7 +1,7 @@
-package domain.values
+package dev.kevinsalazar.domain.values
 
 
-import domain.errors.Error as RootError
+import dev.kevinsalazar.domain.errors.Error as RootError
 
 @Suppress("UNCHECKED_CAST")
 sealed interface Result<out D, out E : RootError> {

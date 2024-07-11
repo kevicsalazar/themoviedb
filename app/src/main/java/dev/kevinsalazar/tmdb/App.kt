@@ -11,7 +11,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
 import dev.kevinsalazar.data.di.dataModule
-import domain.di.domainModule
+import dev.kevinsalazar.domain.di.domainModule
 import dev.kevinsalazar.tmdb.di.appModule
 import dev.kevinsalazar.tmdb.navigation.MainNavHost
 import dev.kevinsalazar.tmdb.ui.theme.TmdbTheme

@@ -1,7 +1,7 @@
 package dev.kevinsalazar.data.mapper
 
-import domain.entities.Season
-import domain.entities.TvShowDetails
+import dev.kevinsalazar.domain.entities.Season
+import dev.kevinsalazar.domain.entities.TvShowDetails
 import dev.kevinsalazar.data.networking.model.TvShowDetailsResponse
 import dev.kevinsalazar.data.utils.constructMediumImageUrl
 import dev.kevinsalazar.data.utils.constructOriginalImageUrl

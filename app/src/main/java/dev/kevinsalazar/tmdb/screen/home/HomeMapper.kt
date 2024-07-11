@@ -1,7 +1,7 @@
 package dev.kevinsalazar.tmdb.screen.home
 
 import  dev.kevinsalazar.tmdb.screen.home.model.TvShowModel
-import domain.entities.TvShow
+import dev.kevinsalazar.domain.entities.TvShow
 
 class HomeMapper {
 

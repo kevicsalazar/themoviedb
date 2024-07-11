@@ -1,6 +1,6 @@
-package domain.usecases
+package dev.kevinsalazar.domain.usecases
 
-import domain.repositories.TvShowRepository
+import dev.kevinsalazar.domain.repositories.TvShowRepository
 
 class GetPagedTvShowsUseCase(
     private val tvShowRepository: TvShowRepository

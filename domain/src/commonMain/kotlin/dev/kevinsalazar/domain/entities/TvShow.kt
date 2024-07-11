@@ -1,4 +1,4 @@
-package domain.entities
+package dev.kevinsalazar.domain.entities
 
 data class TvShow(
     val tvShowId: Int = 0,

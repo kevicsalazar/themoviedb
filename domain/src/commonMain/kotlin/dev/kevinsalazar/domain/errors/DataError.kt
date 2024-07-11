@@ -1,4 +1,4 @@
-package domain.errors
+package dev.kevinsalazar.domain.errors
 
 sealed interface DataError : Error {
     enum class Network : DataError {

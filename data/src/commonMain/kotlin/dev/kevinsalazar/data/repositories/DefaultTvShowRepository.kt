@@ -8,11 +8,11 @@ import dev.kevinsalazar.data.networking.MubiApi
 import dev.kevinsalazar.data.networking.model.TvShowMainResponse
 import dev.kevinsalazar.data.paging.TvShowPagingSource
 import dev.kevinsalazar.data.paging.TvShowPagingSource.Companion.ITEMS_PER_PAGE
-import domain.entities.TvShow
-import domain.entities.TvShowDetails
-import domain.errors.DataError
-import domain.repositories.TvShowRepository
-import domain.values.Result
+import dev.kevinsalazar.domain.entities.TvShow
+import dev.kevinsalazar.domain.entities.TvShowDetails
+import dev.kevinsalazar.domain.errors.DataError
+import dev.kevinsalazar.domain.repositories.TvShowRepository
+import dev.kevinsalazar.domain.values.Result
 import io.ktor.client.plugins.ClientRequestException
 import io.ktor.utils.io.errors.IOException
 import kotlinx.coroutines.flow.Flow

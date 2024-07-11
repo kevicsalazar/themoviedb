@@ -4,9 +4,9 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.navigation.toRoute
-import domain.usecases.GetTvShowDetailsUseCase
-import domain.values.onFailure
-import domain.values.onSuccess
+import dev.kevinsalazar.domain.usecases.GetTvShowDetailsUseCase
+import dev.kevinsalazar.domain.values.onFailure
+import dev.kevinsalazar.domain.values.onSuccess
 import dev.kevinsalazar.tmdb.R
 import dev.kevinsalazar.tmdb.navigation.NavigationScreen.DetailScreen
 import kotlinx.coroutines.flow.MutableStateFlow

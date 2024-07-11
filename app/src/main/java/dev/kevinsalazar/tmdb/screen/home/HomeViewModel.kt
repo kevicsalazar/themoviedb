@@ -5,7 +5,7 @@ import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import androidx.paging.map
-import domain.usecases.GetPagedTvShowsUseCase
+import dev.kevinsalazar.domain.usecases.GetPagedTvShowsUseCase
 import dev.kevinsalazar.tmdb.R
 import dev.kevinsalazar.tmdb.navigation.NavigationScreen
 import dev.kevinsalazar.tmdb.screen.home.model.CategoryModel
