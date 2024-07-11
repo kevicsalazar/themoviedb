@@ -3,7 +3,6 @@ package dev.kevinsalazar.data.networking
 import dev.kevinsalazar.data.BuildConfig
 import io.ktor.client.HttpClient
 import io.ktor.client.HttpClientConfig
-import io.ktor.client.engine.okhttp.OkHttp
 import io.ktor.client.plugins.DefaultRequest
 import io.ktor.client.plugins.auth.Auth
 import io.ktor.client.plugins.auth.providers.BearerTokens
@@ -44,13 +43,6 @@ internal val restHttpClient
         }
     }
 
-fun httpClient(
+expect fun httpClient(
     config: HttpClientConfig<*>.() -> Unit = {}
-) = HttpClient(OkHttp) {
-    config(this)
-    engine {
-        config {
-            retryOnConnectionFailure(true)
-        }
-    }
-}
+): HttpClient

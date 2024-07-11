@@ -24,6 +24,7 @@ turbine = "1.1.0"
 ktor = "2.3.5"
 koin = "3.5.3"
 slf4j = "2.0.13"
+buildconfig = "5.4.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -86,6 +87,7 @@ jetbrainsKotlinCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.
 androidLibrary = { id = "com.android.library", version.ref = "agp" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+buildconfig = { id = "com.github.gmazzo.buildconfig", version.ref = "buildconfig" }
 
 [bundles]
 ktor = [

@@ -14,8 +14,8 @@ import domain.errors.DataError
 import domain.repositories.TvShowRepository
 import domain.values.Result
 import io.ktor.client.plugins.ClientRequestException
+import io.ktor.utils.io.errors.IOException
 import kotlinx.coroutines.flow.Flow
-import okio.IOException
 
 class DefaultTvShowRepository(
     private val mubiApi: MubiApi
