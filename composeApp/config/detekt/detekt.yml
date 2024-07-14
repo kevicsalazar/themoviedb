@@ -1,0 +1,17 @@
+naming:
+  FunctionNaming:
+    ignoreAnnotated: ['Composable']
+    excludes:
+      - '**/MainViewController.kt'
+  TopLevelPropertyNaming:
+    constantPattern: '[A-Z][A-Za-z0-9]*'
+style:
+  MagicNumber:
+    ignorePropertyDeclaration: true
+    ignoreCompanionObjectPropertyDeclaration: true
+complexity:
+  LongMethod:
+    threshold: 100
+  LongParameterList:
+    functionThreshold: 10
+    ignoreDefaultParameters: true
