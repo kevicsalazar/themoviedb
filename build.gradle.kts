@@ -9,4 +9,6 @@ plugins {
     alias(libs.plugins.androidLibrary) apply false
     alias(libs.plugins.detekt) apply false
     alias(libs.plugins.ksp) apply false
+    alias(libs.plugins.buildconfig) apply false
+    alias(libs.plugins.jetbrainsCompose) apply false
 }

@@ -20,6 +20,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "TheMovieDB"
-include(":app")
+include(":composeApp")
 include(":domain")
 include(":data")

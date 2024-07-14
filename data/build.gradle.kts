@@ -1,68 +1,66 @@
+import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import java.io.FileInputStream
 import java.io.FileNotFoundException
 import java.util.Properties
 
 plugins {
+    alias(libs.plugins.jetbrainsKotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.jetbrainsKotlinSerialization)
-    alias(libs.plugins.jetbrainsKotlinAndroid)
     alias(libs.plugins.ksp)
     alias(libs.plugins.detekt)
+    alias(libs.plugins.buildconfig)
+}
+
+kotlin {
+    androidTarget {
+        @OptIn(ExperimentalKotlinGradlePluginApi::class)
+        compilerOptions {
+            jvmTarget.set(JvmTarget.JVM_11)
+        }
+    }
+
+    iosX64()
+    iosArm64()
+    iosSimulatorArm64()
+
+    sourceSets {
+        commonMain.dependencies {
+            implementation(project(":domain"))
+            implementation(libs.paging.common)
+            implementation(libs.koin.core)
+            implementation(libs.bundles.ktor)
+            implementation(libs.kotlinx.serialization.core)
+            implementation(libs.kotlinx.serialization.json)
+        }
+        androidMain.dependencies {
+            implementation(libs.ktor.client.okhttp)
+        }
+        iosMain.dependencies {
+            implementation(libs.ktor.client.darwin)
+        }
+    }
 }
 
 android {
     namespace = "dev.kevinsalazar.data"
-    compileSdk = 34
+    compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        minSdk = 23
-
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles("consumer-rules.pro")
-
-        val apiKey = getProperty("apiKey") ?: System.getenv("API_KEY")
-        buildConfigField("String", "API_KEY", "\"${apiKey}\"")
-        buildConfigField("String", "BASE_URL", "\"https://api.themoviedb.org/3/\"")
-    }
-
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
-        }
+        minSdk = libs.versions.android.minSdk.get().toInt()
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
-    buildFeatures {
-        buildConfig = true
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
 }
 
-dependencies {
-
-    implementation(project(":domain"))
-
-    implementation(libs.paging.runtime)
-    implementation(libs.koin.core)
-    implementation(libs.bundles.ktor)
-    implementation(libs.ktor.client.okhttp)
-    implementation(libs.slf4j)
-
-    implementation(libs.kotlinx.serialization.core)
-    implementation(libs.kotlinx.serialization.json)
-
-    testImplementation(libs.junit)
-    testImplementation(libs.paging.testing)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+buildConfig {
+    packageName("dev.kevinsalazar.data")
+    val apiKey = getProperty("apiKey") ?: System.getenv("API_KEY")
+    buildConfigField("API_KEY", apiKey)
+    buildConfigField("BASE_URL", "https://api.themoviedb.org/3/")
 }
 
 fun getProperty(name: String): String? {
